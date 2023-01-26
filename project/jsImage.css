@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 50%;
+    height: 10vh;
+    background-color: aqua;
+}
+
+.create {
+    margin-top: 15%;
+    padding: 20px;
+    display: block !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.create input {
+    font-size: 20px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.create button:hover {
+    background-color: yellow;
+}
+
+.create button {
+    cursor: pointer;
+    width: 80%;
+    margin-top: 20px;
+    height: 30px;
+    background-color: rgb(82, 82, 82);
+}
+
+.black {
+    justify-content: center;
+    align-items: center !important;
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://cdn.wallpapersafari.com/64/44/gYwV8P.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.X {
+    cursor: pointer;
+    bottom: 91%;
+    position: relative;
+    width: 5% !important;
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0);
+    padding: 4px;
+    border: 0 !important;
+}
+
+.X:hover {
+    background-color: yellow !important;
+}
+
+.bbb:hover {
+    background-color: yellow;
+}
+
+.bbb {
+    left: 50%;
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    padding: 7px;
+}
